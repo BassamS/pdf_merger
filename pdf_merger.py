@@ -11,5 +11,5 @@ for item in os.listdir(source_dir):
   if item.endswith('pdf'):
     merger.append(item)
 
-merger.write('./Output/Lecture Complete.pdf')
+merger.write('./Output/merged_PDF.pdf')
 merger.close()
